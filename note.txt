@@ -1,0 +1,26 @@
+journal api
+
+register user - model( email, name, password)
+1. email, password, validation
+2. hash user password (mongoose middleware)
+3. generate token 
+4. send response with the token 
+
+login user
+1. email and password validation
+2. find user
+3. compare password( if correct -> generate token)
+generate proper jwt secret
+
+
+
+Authentication middleware
+Authorization: Bearer token - req.headers
+1.get token from req.headers
+2. verify token
+
+Error handling
+
+CRUD operation for  journal
+1. schema connection
+2.crud
